@@ -19,7 +19,7 @@ var ImageForm = React.createClass({
       name: $('#title').val(),
       url: $('#url').val(),
       caption: $('#caption').val()
-    }
+    };
     console.log(formData);
     this.props.collection.create(formData);
     $('.form-container').slideUp();
@@ -50,7 +50,7 @@ var ImageForm = React.createClass({
         </div>
 
       </form>
-    )
+    );
   }
 });
 

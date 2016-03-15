@@ -20,7 +20,7 @@ var ImageItem = React.createClass({
     			<p className="caption text-center">{this.props.model.get('caption')}</p>
     		</div>
     	</div>
-     )
+     );
   	}
 });
 
@@ -41,7 +41,7 @@ var ImageList = React.createClass({
 				{list}
 			</div>
 
-			)
+			);
 	}
 
 });
