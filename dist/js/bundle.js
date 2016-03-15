@@ -21,7 +21,7 @@ var ImageForm = React.createClass({displayName: "ImageForm",
       name: $('#title').val(),
       url: $('#url').val(),
       caption: $('#caption').val()
-    }
+    };
     console.log(formData);
     this.props.collection.create(formData);
     $('.form-container').slideUp();
@@ -52,7 +52,7 @@ var ImageForm = React.createClass({displayName: "ImageForm",
         )
 
       )
-    )
+    );
   }
 });
 
@@ -87,7 +87,7 @@ var ImageItem = React.createClass({displayName: "ImageItem",
     			React.createElement("p", {className: "caption text-center"}, this.props.model.get('caption'))
     		)
     	)
-     )
+     );
   	}
 });
 
@@ -108,7 +108,7 @@ var ImageList = React.createClass({displayName: "ImageList",
 				list
 			)
 
-			)
+			);
 	}
 
 });
@@ -136,7 +136,7 @@ var NavComponent = React.createClass({displayName: "NavComponent",
   render: function() {
       return (
         React.createElement("div", {className: "container"}, 
-          React.createElement("button", {onClick: this.showForm, className: "btn btn-default pull-right nav-button"}, React.createElement("i", {className: "fa fa-2x fa-picture-o"}), " ", React.createElement("i", {className: "fa fa-plus"}))
+          React.createElement("button", {onClick: this.showForm, className: "btn btn-default pull-right nav-button"}, " ", React.createElement("i", {className: "fa fa-plus"}))
         )
 
       );
