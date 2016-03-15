@@ -11,7 +11,40 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 *::after {
   box-sizing: border-box;
 }
-
+body {
+	font-family: Monaco;
+}
 img {
   max-width: 100%;
+}
+
+.navbar {
+	background-color: rgb(62, 77, 184);
+	height: 100px;
+}
+.nav-button {
+	margin-top: 15px;
+}
+
+
+
+//input groups
+
+
+#url {
+	margin-bottom: 10px;
+}
+
+#input-buttons {
+	margin: 10px;
+	float: right;
+}
+.cancel-btn, .add-image-btn {
+	margin: 5px;
+
+}
+// image list
+
+.image-title {
+
 }
