@@ -13,7 +13,7 @@ var NavComponent = React.createClass({
   render: function() {
       return (
         <div className="container">
-          <button onClick={this.showForm} className="btn btn-default pull-right nav-button"><i className="fa fa-2x fa-picture-o"></i> <i className="fa fa-plus"></i></button>
+          <button onClick={this.showForm} className="btn btn-default pull-right nav-button"> <i className="fa fa-plus"></i></button>
         </div>
 
       );
